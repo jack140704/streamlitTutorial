@@ -9,4 +9,7 @@ if __name__ == "__main__":
 
     #creazione dei tab distinti
     tab_prodotti,tab_staff,tab_clienti=st.tabs(["Prodotti","Staff","Clienti"])
+
+    if check_connection():
+        pass
     
