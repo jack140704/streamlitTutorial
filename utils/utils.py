@@ -22,3 +22,6 @@ def check_connection():
         else:
             st.session_state["connection"] = False
             st.sidebar.error["Errore connessione db"]
+
+def executeQuery(conn, query):
+    return conn.execute(text(query))

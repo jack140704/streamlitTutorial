@@ -21,7 +21,7 @@ if __name__ == "__main__":
         st.title(":red[Live Coding] Session")
         st.markdown("## 💻Corso di :blue[basi di dati]💻")
     with col2:
-        st.image("images/polito_white.png")
+       st.image("images/polito_white.png")
 
     if "connection" not in st.session_state.keys():
         st.session_state["connection"]=False
